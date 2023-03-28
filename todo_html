@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+    <title>To-Do List App TXON_03</title>
+    <script src="https://kit.fontawesome.com/9b4642fb4c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body div class="bg">
+    <div class="wrapper">
+        <header><b>To-Do App</b></header>
+        <div class="inputField">
+            <input type="text" placeholder="Add To-Do List Items here">
+            <button><i class="fas fa-plus"></i></button>
+        </div>
+        <ul class="todoList">
+            <!-- data are comes from local storage -->
+          </ul>
+          <div class="footer">
+            <span>You have <span class="pendingTasks"></span> pending tasks</span>
+            <button>Clear All</button>
+          </div>
+        </div>
+        <script src="task3.js"></script>
+      </body>
+      </html>
